@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Stock Display</title>
+  <link rel="stylesheet" href="../assets/styles/stocks.css">
+
+  <!-- PULLING IN A JQUERY MESSAGEBOX from https://github.com/dotCtor/jQuery.msgBox -->
+  <link href="../assets/styles/msgBoxLight.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <div id="outer_div">
+    <div id="banner">
+      <h1> <span id="main_heading">Stock Display!</span> </h1>
+    </div>
+
+    <div id="button_area">
+      <button id="del_button">Delete</button>
+      <button id="add_button">Add</button>
+      <button id="put_button">Update</button>
+    </div>
+
+    <div id="response_div">
+      <table id="myTable">
+        <tr>
+          <tr>
+            <th>ID#</th>
+            <th>Company</th>
+            <th>Symbol</th>
+            <th>52 Wk Low</th>
+            <th>52 Wk High</th>
+            <th>Avg. Volume</th>
+            <th>Mkt. Cap</th>
+            <th>PE Ratio</th>
+            <th>EPS</th>
+          </tr>
+          <!-- content to be added via JS -->
+        </tr>
+      </table>
+      <br>
+    </div>
+
+  </div>
+  <!-- <div id="divdeps" style="display:none" title=""></div> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- PULLING IN A JQUERY MESSAGEBOX from https://github.com/dotCtor/jQuery.msgBox -->
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+   <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+  <script src="../assets/js/jquery.msgBox.js" type="text/javascript"></script>
+
+  <script src="../assets/js/stocks.js"></script>
+  <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stock Add/Update pop-up dialog</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/styles/pop_up.css">
+</head>
+
+<body>
+  <div id="outer_div">
+    <div id="banner">
+      <h1> <span id="main_heading">Add a New Company!</span> </h1>
+    </div>
+    <div id="inputArea">
+      <form class="form-horizontal" id="form_id">
+
+        <div class="form-group">
+          <label for="company" class="col-sm-4 control-label">Company Name</label>
+          <div class="col-sm-8">
+            <input type="text" id="company" class="form-control" name="co_name" placeholder="Company Name...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="symbol" class="col-sm-4 control-label">Company Symbol</label>
+          <div class="col-sm-8">
+            <input type="text" id="symbol" class="form-control" name="symbol" placeholder="Company Symbol...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="52_week_low" class="col-sm-4 control-label">52 Week Low</label>
+          <div class="col-sm-8">
+            <input type="text" id="52_week_low" class="form-control" name="wk_52_lo" placeholder="52 week low...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="52_week_high" class="col-sm-4 control-label">52 Week High</label>
+          <div class="col-sm-8">
+            <input type="text" id="52_week_high" class="form-control" name="wk_52_hi" placeholder="52 week high...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="avg_volume" class="col-sm-4 control-label">Average Volume</label>
+          <div class="col-sm-8">
+            <input type="text" id="avg_volume" class="form-control" name="avg_vol" placeholder="Average Volume...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="market_cap" class="col-sm-4 control-label">Market Capitalization</label>
+          <div class="col-sm-8">
+            <input type="text" id="market_cap" class="form-control" name="mkt_cap" placeholder="Market Capitalization...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="pe_ratio" class="col-sm-4 control-label">PE Ratio</label>
+          <div class="col-sm-8">
+            <input type="text" id="pe_ratio" class="form-control" name="pe_ratio" placeholder="PE Ratio...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="eps" class="col-sm-4 control-label">Earnings Per Share</label>
+          <div class="col-sm-8">
+            <input type="text" id="eps" class="form-control" name="eps" placeholder="Earnings Per Share...">
+          </div>
+        </div>
+      </form>
+
+    </div>
+
+    <div id="button_div">
+      <!-- <input type="submit" id="submit_button" value="Submit"> -->
+      <!-- <input type="submit" value="Cancel"> -->
+      <button id="submit_button">Submit</button>
+      <!-- <button id="cancel_button">Cancel</button> -->
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="../assets/js/pop_up.js"></script>
+
+</body>
+
+</html>
